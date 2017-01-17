@@ -1,8 +1,21 @@
-<title>带拖拽效果的红点提示控件 DragIndicatorView</title>
+#Download
+
+Download the latest JAR or grab via Maven:
+~~~xml
+<dependency>
+  <groupId>com.sh.dragindicator</groupId>
+  <artifactId>dragindicator</artifactId>
+  <version>1.0.1</version>
+  <type>pom</type>
+</dependency>
+~~~
+or Gradle:
+~~~gradle
+compile 'com.sh.dragindicator:dragindicator:1.0.1'
+~~~
+```****```<title>带拖拽效果的红点提示控件 DragIndicatorView</title>
 <br/>
 <img src="https://github.com/siwangqishiq/DragIndicatorView/blob/master/images/demo1.gif" width=300 />
-<br/>
-<img src="https://github.com/siwangqishiq/DragIndicatorView/blob/master/images/demo2.gif" width=300 />
 <br/>
 
 <p>

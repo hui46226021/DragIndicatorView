@@ -29,7 +29,7 @@ import com.xinlan.dragindeocatorview.R;
 
 /**
  * 可拖拽的红点提示
- * <p/>
+ *
  * Created by panyi on 2016/3/31.
  */
 public class DragIndicatorView extends TextView {
