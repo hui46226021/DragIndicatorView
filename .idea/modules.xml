@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DragIndicatorView.iml" filepath="$PROJECT_DIR$/DragIndicatorView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShDragIndicatorView.iml" filepath="$PROJECT_DIR$/ShDragIndicatorView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dragindicator/dragindeocatorview.iml" filepath="$PROJECT_DIR$/dragindicator/dragindeocatorview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dragindicator/dragindicator.iml" filepath="$PROJECT_DIR$/dragindicator/dragindicator.iml" />
       <module fileurl="file://$PROJECT_DIR$/dragindicator/dragindicator.iml" filepath="$PROJECT_DIR$/dragindicator/dragindicator.iml" />
     </modules>
   </component>

@@ -56,6 +56,8 @@ public class DragIndicatorView extends TextView {
     private SpringView mSpringView;
     private OnIndicatorDismiss mOnDismissAction;
 
+    private ViewCall viewCall;
+
     public DragIndicatorView(Context context) {
         super(context);
         initView(context);
@@ -277,6 +279,11 @@ public class DragIndicatorView extends TextView {
         }
 
         setVisibility(View.GONE);
+        if(viewCall!=null){
+            viewCall.killView();
+        }
+
+
     }
 
     /**
@@ -479,4 +486,19 @@ public class DragIndicatorView extends TextView {
         }
     }//end inner class
 
+
+    public static interface ViewCall{
+        /**
+         * 销毁
+         */
+        public void killView();
+    }
+
+    /**
+     * 设置回调
+     * @param viewCall
+     */
+    public void setViewCall(ViewCall viewCall) {
+        this.viewCall = viewCall;
+    }
 }//end class

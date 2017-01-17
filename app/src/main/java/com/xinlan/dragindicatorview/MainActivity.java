@@ -3,6 +3,7 @@ package com.xinlan.dragindicatorview;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.xinlan.dragindicator.DragIndicatorView;
 
@@ -20,6 +21,13 @@ public class MainActivity extends AppCompatActivity {
         mIndiactorView = (DragIndicatorView) findViewById(R.id.indiactor_view);
         mOtherView = (DragIndicatorView) findViewById(R.id.indicator);
 
+        mIndiactorView.setViewCall(new DragIndicatorView.ViewCall() {
+            @Override
+            public void killView() {
+                Toast.makeText(MainActivity.this,"删除红点",Toast.LENGTH_SHORT).show();
+            }
+        });
+
         mDismssBtn = findViewById(R.id.close_btn);
         mDismssBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,8 +41,7 @@ public class MainActivity extends AppCompatActivity {
         mSecondBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //to list activity
-                SecondActivity.start(MainActivity.this);
+
             }
         });
     }
