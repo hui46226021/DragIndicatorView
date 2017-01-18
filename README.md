@@ -3,15 +3,15 @@
 Download the latest JAR or grab via Maven:
 ~~~xml
 <dependency>
-  <groupId>com.sh.dragindicator</groupId>
+  <groupId>com.zsh.code</groupId>
   <artifactId>dragindicator</artifactId>
-  <version>1.0.1</version>
+  <version>2.0.1</version>
   <type>pom</type>
 </dependency>
 ~~~
 or Gradle:
 ~~~gradle
-compile 'com.sh.dragindicator:dragindicator:1.0.1'
+compile 'com.zsh.code:dragindicator:2.0.1'
 ~~~
 ```****```<title>带拖拽效果的红点提示控件 DragIndicatorView</title>
 <br/>
